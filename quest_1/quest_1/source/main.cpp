@@ -14,6 +14,8 @@ using namespace std;
 int main (int argc, char *argv[]){
 	GUI gui;
 
+	// Change 
+
 	//Create array of Objects:
 	const int maxObjects{ (gui.numColumns)*(gui.numRows) + 1 };//+1 for player
 	Object objects[maxObjects];
